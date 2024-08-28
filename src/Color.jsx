@@ -8,7 +8,7 @@ const Color = () => {
 
     
   return (
-    <div className='container m-5 p-5 border border-dark rounded d-flex align-items-center justify-contents-center'>
+    <div className='container m-5 p-5 border border-dark rounded d-flex justify-content-center'>
         <div className={`container ${bgColor} text-center p-5 rounded`}>
             <h1 style={{padding:50,color:'purple',fontFamily:'fantasy'}}>COLOUR CHANGER</h1>
             <button onClick={()=>ColourChanger("bg-danger")} className='m-5 fw-bolder btn  btn-danger'>Red</button>
